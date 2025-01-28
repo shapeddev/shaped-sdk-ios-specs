@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Shaped' => 'support@shaped.com.br' }
   s.source = { :git => 'https://github.com/shapeddev/shaped_sdk.git', :tag => s.version.to_s }
   s.source_files     = 'sdk/ios/Classes/**/*'
-  s.resource_bundles = {'ShapedSDKAssets' => ['sdk/ios/*.bundle']}
+  s.resource_bundles = {'ShapedSDKAssets' => ['sdk/ios/ShapedSDK/*.bundle']}
   s.static_framework = true
   s.dependency 'GoogleMLKit/PoseDetection', '6.0.0'
   s.dependency 'GoogleMLKit/PoseDetectionAccurate', '6.0.0'
