@@ -1,6 +1,6 @@
-# Shaped SDK
+# Shaped SDK IOS Specs
 
-The **Shaped SDK** uses Google ML Kit to provide advanced **pose detection** and **selfie segmentation** features, making integration into iOS projects easier.
+The **Shaped SDK IOS Specs** uses Google ML Kit to provide advanced **pose detection** features, making integration into iOS projects easier.
 
 ## 📋 Requirements
 
