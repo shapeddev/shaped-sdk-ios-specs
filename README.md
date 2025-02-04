@@ -25,7 +25,7 @@ pod install
 
 ## 📄 License
 
-This project is licensed under the **MIT** license. See the [`LICENSE`](sdk/ios/LICENSE) file for more details.
+This project is Shaped Proprietary License. See the [`LICENSE`](LICENSE) file for more details.
 
 ## 📧 Support
 
