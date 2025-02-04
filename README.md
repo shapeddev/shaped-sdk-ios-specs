@@ -30,5 +30,4 @@ This project is Shaped Proprietary License. See the [`LICENSE`](LICENSE) file fo
 ## 📧 Support
 
 For questions or support, contact us:
-- **Email:** 
 - **Website:** [Shaped](https://web.shaped.com.br)
