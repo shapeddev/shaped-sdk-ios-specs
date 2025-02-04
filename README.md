@@ -1,35 +1,34 @@
-# Shaped SDK Specs
+# Shaped SDK
 
-A **Shaped SDK Specs** utiliza o Google ML Kit para fornecer recursos avançados de **detecção de poses** e **segmentação de selfies**, facilitando a integração em projetos iOS.
+The **Shaped SDK** uses Google ML Kit to provide advanced **pose detection** and **selfie segmentation** features, making integration into iOS projects easier.
 
-## 📋 Requisitos
+## 📋 Requirements
 
 - iOS 13.0+
 - Swift 5.0+
 - Xcode 14.0+
-- Cocoapods instalado
+- CocoaPods installed
 
-## 📦 Instalação
+## 📦 Installation
 
-Adicione a **Shaped SDK Specs** ao seu projeto através do **CocoaPods**. No seu `Podfile`, inclua:
+Add **Shaped SDK** to your project via **CocoaPods**. In your `Podfile`, include:
 
 ```ruby
 pod 'shaped_sdk'
 ```
 
-Em seguida, execute:
+Then, run:
 
 ```sh
 pod install
 ```
 
-## 📄 Licença
+## 📄 License
 
-Este projeto é licenciado sob os termos da licença **MIT**. Veja o arquivo [`LICENSE`](sdk/ios/LICENSE) para mais detalhes.
+This project is licensed under the **MIT** license. See the [`LICENSE`](sdk/ios/LICENSE) file for more details.
 
-## 📧 Suporte
+## 📧 Support
 
-Para dúvidas ou suporte, entre em contato:
-
-- **E-mail:** []()
+For questions or support, contact us:
+- **Email:** 
 - **Website:** [Shaped](https://web.shaped.com.br)
