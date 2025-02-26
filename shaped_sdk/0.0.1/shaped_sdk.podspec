@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'shaped_sdk'
-  s.version          = ENV['SDK_VERSION'] || '0.0.2'
+  s.version          = ENV['SDK_VERSION'] || '0.0.1'
   s.summary = 'Uma SDK para detecção de poses e segmentação usando ML Kit.'
   s.description = <<-DESC
     The Shaped SDK IOS Specs uses Google ML Kit to provide advanced pose detection features, 
