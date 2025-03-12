@@ -11,13 +11,14 @@ Pod::Spec.new do |s|
   s.author           = { 'Shaped' => 'api@shaped.com.br' }
   s.platform = :ios, '13.0'
   s.source = {
-    :http => "https://api.github.com/repos/shapeddev/shaped-sdk-packages/releases/assets/236554964",
+    :http => "https://api.github.com/repos/shapeddev/shaped-sdk-packages/releases/assets/236833060",
     :type => :zip,
     :headers => [
       "Authorization: token #{ENV['GITHUB_TOKEN']}",
       "Accept: application/octet-stream"
     ]
   }
+  s.static_framework = true
   s.vendored_frameworks = 'ShapedSDK.xcframework'
   s.resources = ['ShapedSDK.xcframework/ios-arm64/ShapedSDK.framework/ShapedSDKAssets.bundle']
   s.dependency 'GoogleMLKit/PoseDetection', '6.0.0'
