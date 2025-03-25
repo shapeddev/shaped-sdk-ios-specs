@@ -4,7 +4,7 @@ The **Shaped SDK IOS Specs** uses Google ML Kit to provide advanced **pose detec
 
 ## 📋 Requirements
 
-- iOS 13.0+
+- iOS 15.5+
 - Swift 5.0+
 - Xcode 14.0+
 - CocoaPods installed
@@ -30,4 +30,6 @@ This project is Shaped Proprietary License. See the [`LICENSE`](LICENSE) file fo
 ## 📧 Support
 
 For questions or support, contact us:
+
 - **Website:** [Shaped](https://web.shaped.com.br)
+
