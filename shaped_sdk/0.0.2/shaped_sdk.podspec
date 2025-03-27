@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shaped' => 'api@shaped.com.br' }
   s.source = {
-    :http => "https://api.github.com/repos/shapeddev/shaped-sdk-packages/releases/assets/238648209",
+    :http => "https://api.github.com/repos/shapeddev/shaped-sdk-packages/releases/assets/241394359",
     :type => :zip,
     :headers => [
       "Authorization: token #{ENV['GITHUB_TOKEN']}",
@@ -20,9 +20,6 @@ Pod::Spec.new do |s|
   s.static_framework = true
   s.vendored_frameworks = 'ShapedSDK.xcframework'
   s.resources = ['ShapedSDK.xcframework/ios-arm64/ShapedSDK.framework/ShapedSDKAssets.bundle']
-  s.dependency 'GoogleMLKit/PoseDetection', '7.0.0'
-  s.dependency 'GoogleMLKit/PoseDetectionAccurate', '7.0.0'
-  s.dependency 'GoogleMLKit/SegmentationSelfie', '7.0.0'
   s.platform = :ios, '15.5'
 
   s.swift_version = '5.0'
