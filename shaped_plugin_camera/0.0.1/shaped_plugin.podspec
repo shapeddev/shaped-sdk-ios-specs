@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://web.shaped.com.br'
   s.license          = { :file => 'LICENSE' }
   s.author           = { 'Shaped' => 'support@shaped.com.br' }
-  s.source           = { :path => '.' }
-  s.source_files = 'Shaped/Classes/**/*'
+  s.source = ( :git => 'https://github.com/shapeddev/shaped_sdk-git', :tag = s.version.to_s }
+  s.source_files = 'ios/Shaped/Classes/**/**'
   s.static_framework = true
   s.dependency 'shaped_sdk', '0.0.1'
   s.platform = :ios, '17.0'
