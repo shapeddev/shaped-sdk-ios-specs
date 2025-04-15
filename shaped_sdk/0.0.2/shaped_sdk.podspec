@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Shaped' => 'api@shaped.com.br' }
   s.source = {
-    :http => "https://api.github.com/repos/shapeddev/shaped-sdk-packages/releases/assets/241394359",
+    :http => "https://api.github.com/repos/shapeddev/shaped-sdk-packages/releases/assets/246431743",
     :type => :zip,
     :headers => [
       "Authorization: token #{ENV['GITHUB_TOKEN']}",
